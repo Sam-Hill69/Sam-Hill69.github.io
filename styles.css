@@ -1,14 +1,41 @@
 .alert-text {
-    color: rgb(214, 39, 39)
+    color: rgb(214, 39, 39);
+    padding: 10px;
 }
 * {
-    background-color: lightgoldenrodyellow
+    background-color: rgb(255, 255, 255)
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-ol,
-li{
-    text-align: left;
+/* .welcome-page{ */
+    /* border: 5px solid rgb(1, 168, 252); */
+/* } */
+.main-content{
+    /* border: 5px solid rgb(1, 168, 252); */
+    margin: 0px auto;
+    font-size: 20px;
+    max-width: 600px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
+.goals{
+    position: relative;
+    top: -400px;
+    max-width: 350px;
+    border: 1px solid yellow;
+
+}
+.container{
+    position: relative;
+    border: 1px solid blue;
+}
+p{
+    margin: 0px auto;
+    font-size: 20px;
+    max-width: 600px;
+    border: 1px solid yellow;
+}
+
