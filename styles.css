@@ -4,22 +4,113 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(53, 42, 42);
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .main-container{
     display: flex;
     color: azure;
-    background-color: blue;
     padding: 20px;
-
-}
-.main-paragraph{
-    border: 1px solid #fff;  /* For debugging */
-    width: 900px;
+    margin-top: 20px;
 }
 .goals{
-    border: 1px solid #fff;  /* For debugging */
+    /* border: 1px solid #fff;   */
+    width: 900px;
+}
+.main-paragraph{
+    /* border: 1px solid #fff;   */
+    width: 900px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.pages-container{
+    /* border: 1px solid #fff; */
     width: 900px;
 }
 .welcome{
     text-align: center;
+    color: azure;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.welcome h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+.goals h2, .pages-container h2 {
+    color: #ffcc00;
+}
+.goals ol {
+    padding-left: 20px;
+}
+.main-paragraph p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.pages-container a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.pages-container a:hover {
+    background-color: #ffcc00;
+    color: #121212;
+}
+
+.projects-container {
+    /* border: 1px solid #fff;  */
+    width: 900px;
+    margin: 20px auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.projects-container h2 {
+    color: #ffcc00;
+}
+
+.projects-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-container li {
+    margin: 10px 0;
+}
+
+.projects-container a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.projects-container a:hover {
+    background-color: #ffcc00;
+    color: #121212;
+}
+
+.container-one {
+    display: flex;
+    color: azure;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container-two {
+    margin-top: 20px;
+    padding: 20px;
 }
